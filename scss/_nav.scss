@@ -1,4 +1,4 @@
-.menu{
+.menu {
     background-color: rgba(236, 244, 220, 0.8);
     padding: 8px 20px;
     top: 0;
@@ -8,24 +8,29 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    img{
+
+    img {
         width: 30px;
         height: 30px;
     }
-    ul{
-    list-style: none;
-     display: flex;
-        li{
-        margin-right: 20px;
-            a{
+
+    ul {
+        list-style: none;
+        display: flex;
+
+        li {
+            margin-right: 20px;
+
+            a {
                 text-decoration: none;
                 color: map-get($map: $fuentes, $key: one);
                 font-size: 20px;
-                &:hover{
+
+                &:hover {
                     text-decoration: underline;
                     color: $black;
                 }
             }
-        }    
+        }
     }
-}    
+}
